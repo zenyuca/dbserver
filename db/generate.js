@@ -32,12 +32,10 @@ module.exports = () => {
     //     ]
     //   }
     // })
-    testapi: {
-      swiperImages: _.times(5, n => {
-        return {
-          url: faker.image.image()
-        }
-      })
-    }
+    swiperImages: _.times(5, n => {
+      return {
+        url: faker.image.image()
+      }
+    })
   }
 }
